@@ -4,5 +4,10 @@
     "singleQuote": false,
     "tabWidth": 4,
     "trailingComma": "es5",
-    "arrowParens": "always"
+    "arrowParens": "always",
+    "svelteSortOrder": "markup-scripts-styles",
+    "svelteStrictMode": true,
+    "svelteBracketNewLine": true,
+    "svelteAllowShorthand": false,
+    "svelteIndentScriptAndStyle": false
 }

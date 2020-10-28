@@ -1,30 +1,33 @@
-<script>
-	export let name;
-</script>
-
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+    <div class="px-8 py-12">
+        <img class="h-10" src="http://placekitten.com/800/190" alt="Logo" />
+        <img
+            class="mt-6 rounded-lg shadow-xl"
+            src="http://placekitten.com/400/300"
+            alt="Cat"
+        />
+        <h1 class="mt-6 text2xl font-bold text-gray-900 leading-tight">
+            You can work from anywhere.
+            <span class="text-indigo-500"> Take advantage of it. </span>
+        </h1>
+        <p class="mt-2 text-gray-600">
+            Dolor beatae esse sit doloribus quos, corrupti Eum molestias qui
+            possimus dolores dicta temporibus. Quam porro incidunt porro quo
+            beatae. Porro rem eligendi praesentium impedit consectetur. Sed
+            corporis maiores debitis.
+        </p>
+    </div>
+    <div class="mt-4">
+        <a
+            class="inline-block px-5 py-3 rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm bg-indigo-500 text-white"
+            href="#"
+        >Book your escape</a>
+    </div>
 </main>
 
+<script>
+export let name;
+</script>
+
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
 </style>
